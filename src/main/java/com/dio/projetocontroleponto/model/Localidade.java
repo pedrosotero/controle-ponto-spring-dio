@@ -1,6 +1,7 @@
 package com.dio.projetocontroleponto.model;
 
 import lombok.*;
+import org.hibernate.envers.Audited;
 
 import javax.persistence.*;
 
@@ -10,6 +11,7 @@ import javax.persistence.*;
 @NoArgsConstructor
 @EqualsAndHashCode
 @Builder
+@Audited
 @Entity
 public class Localidade {
 
